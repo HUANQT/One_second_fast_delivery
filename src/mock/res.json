@@ -1,0 +1,86 @@
+{
+  "code": 200,
+  "msg": "success",
+  "menus": [
+    {
+      "id": 1,
+      "label": "数据总览",
+      "icon": "clarity:dashboard-outline-badged",
+      "path": "/dashboard",
+      "component": "/pages/dashboard/index.jsx",
+      "pid": 0
+    },
+    {
+      "id": 2,
+      "label": "用户管理",
+      "icon": "tabler:user-edit",
+      "path": "/user",
+      "component": "",
+      "pid": 0
+    },
+    {
+      "id": 3,
+      "label": "代理列表",
+      "icon": "material-symbols:support-agent-sharp",
+      "path": "agent",
+      "component": "/pages/user/agent.jsx",
+      "pid": 2
+    },
+    {
+      "id": 4,
+      "label": "管理员列表",
+      "icon": "grommet-icons:user-admin",
+      "path": "admin",
+      "component": "/pages/user/admin.jsx",
+      "pid": 2
+    },
+    {
+      "id": 5,
+      "label": "客户列表",
+      "icon": "hugeicons:user-list",
+      "path": "customer",
+      "component": "/pages/user/customer.jsx",
+      "pid": 2
+    },
+    {
+      "id": 6,
+      "label": "订单管理",
+      "icon": "mdi:order-bool-descending",
+      "path": "/order",
+      "component": "",
+      "pid": 0
+    },
+    {
+      "id": 7,
+      "label": "订单列表",
+      "icon": "icon-park-outline:transaction-order",
+      "path": "list",
+      "component": "/pages/order/list.jsx",
+      "pid": 6
+    },
+    {
+      "id": 8,
+      "label": "资金流向",
+      "icon": "icon-park-outline:funds",
+      "path": "fund",
+      "component": "/pages/order/fund.jsx",
+      "pid": 6
+    },
+    {
+      "id": 9,
+      "label": "取消订单",
+      "icon": "mdi:archive-cancel-outline",
+      "path": "cancel",
+      "component": "/pages/order/cancel.jsx",
+      "pid": 6
+    },
+    {
+      "id": 10,
+      "label": "佣金设置",
+      "icon": "ph:tip-jar",
+      "path": "fee",
+      "component": "/pages/order/fee.jsx",
+      "pid": 6
+    }
+  ]
+}
